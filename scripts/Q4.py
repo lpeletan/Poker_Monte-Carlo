@@ -1,5 +1,5 @@
-from tools import Series, Clock
-import poker as pkr
+from poker.tools import Series, Clock
+import poker.poker as pkr
 
 game = pkr.Game()  # creates a game with a board and a 52 card deck (but no player)
 # adding two players

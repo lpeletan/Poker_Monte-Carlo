@@ -1,7 +1,7 @@
 import math
 import itertools
-import poker as pkr
-from tools import Clock
+import poker.poker as pkr
+from poker.tools import Clock
 
 deck = pkr.Deck.standard_32_card_deck()
 # deck = pkr.Deck.standard_52_card_deck()

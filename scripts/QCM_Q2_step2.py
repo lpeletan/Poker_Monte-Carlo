@@ -1,5 +1,5 @@
-from tools import Series, Clock
-import poker as pkr
+from poker.tools import Series, Clock
+import poker.poker as pkr
 
 game = pkr.Game()
 n_players = 2

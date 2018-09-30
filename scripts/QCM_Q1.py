@@ -1,6 +1,6 @@
-from tools import Series
-from tools import Clock
-import poker as pkr
+from poker.tools import Series
+from poker.tools import Clock
+import poker.poker as pkr
 
 game = pkr.Game()
 game.add_player()

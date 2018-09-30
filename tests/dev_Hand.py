@@ -1,4 +1,4 @@
-import poker as p
+import poker.poker as p
 
 d = p.Deck.standard_52_card_deck()
 print(d)
